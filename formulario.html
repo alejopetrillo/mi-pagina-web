@@ -1,0 +1,398 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>formulario Alejo Petrillo</title>
+
+    <link rel="stylesheet" href="stile.css">
+</head>
+
+<body>
+
+
+    <header class="encabezado">
+
+    
+        <div class="logo">
+            <img src="img/logo.perrera.png" alt="Logo">
+        </div>
+
+        <div class="titulo">
+            <h1>Adopta un Amigo</h1>
+            <p>Ellos también sueñan con un hogar</p>
+        </div>
+
+        <div class="mensaje">
+            <p>"No compres,<br>adoptá"</p>
+        </div>
+
+    </header>
+<form action="#" method="POST" id="registroForm">
+
+        <main class="contenedor">
+             <section class="columna">
+                <fieldset>
+
+                    <legend> Datos personales</legend>
+
+                    <div class="campo">
+                        <label>Nombre y apellido:</label>
+                        <input type="text" name="nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label>DNI:</label>
+                        <input type="text" name="dni">
+                    </div>
+
+                    <div class="campo">
+                        <label>Teléfono:</label>
+                        <input type="tel" name="telefono">
+                    </div>
+
+                    <div class="campo">
+                        <label>Correo electrónico:</label>
+                        <input type="email" name="gmail">
+                    </div>
+
+                    <div class="campo">
+                        <label>Dirección:</label>
+                        <input type="text" name="direccion">
+                    </div>
+
+                </fieldset>
+                <fieldset>
+
+                    <legend> Tu hogar</legend>
+
+                    <div class="campo">
+                        <label>Tipo de vivienda:</label>
+
+                        <div class="opciones">
+                            <label>
+                                <input type="radio" name="vivienda" value="casa">
+                                Casa
+                            </label>
+
+                            <label>
+                                <input type="radio" name="vivienda" value="departamento">
+                                Departamento
+                            </label>
+
+                            <label>
+                                <input type="radio" name="vivienda" value="otro">
+                                Otro
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label>¿Tenés patio o espacio exterior?</label>
+
+                        <div class="opciones">
+                            <label>
+                                <input type="radio" name="patio" value="si">
+                                Sí
+                            </label>
+
+                            <label>
+                                <input type="radio" name="patio" value="no">
+                                No
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label>¿Vivís solo o acompañado?</label>
+
+                        <div class="opciones">
+                            <label>
+                                <input type="radio" name="personas" value="solo">
+                                Solo/a
+                            </label>
+
+                            <label>
+                                <input type="radio" name="personas" value="familia">
+                                Con familia
+                            </label>
+
+                            <label>
+                                <input type="radio" name="personas" value="mascotas">
+                                Con otras mascotas
+                            </label>
+                        </div>
+                    </div>
+
+                </fieldset>
+
+            </section>
+            <section class="columna">
+                <fieldset>
+
+                    <legend> Elegí a tu compañero</legend>
+
+                    <div class="perros">
+
+                        <label class="perro">
+                            <img src="img/labrador.jpg" alt="Labrador">
+                            <span>
+                                <input type="radio" name="perro" value="labrador">
+                                Labrador
+                            </span>
+                        </label>
+
+                        <label class="perro">
+                            <img src="img/mestizo.jpg" alt="Mestizo">
+                            <span>
+                                <input type="radio" name="perro" value="mestizo">
+                                Mestizo
+                            </span>
+                        </label>
+
+                        <label class="perro">
+                            <img src="img/border.collie.jpg" alt="Border Collie">
+                            <span>
+                                <input type="radio" name="perro" value="border">
+                                Border Collie
+                            </span>
+                        </label>
+
+                        <label class="perro">
+                            <img src="img/beagle.jpg" alt="Beagle">
+                            <span>
+                                <input type="radio" name="perro" value="beagle">
+                                Beagle
+                            </span>
+                        </label>
+
+                        <label class="perro">
+                            <img src="img/rottwailer.jpg" alt="Rottweiler">
+                            <span>
+                                <input type="radio" name="perro" value="shihtzu">
+                                Rottweiler
+                            </span>
+                        </label>
+
+                        <label class="perro">
+                            <img src="img/pitbull.jpg" alt="Pitbull">
+                            <span>
+                                <input type="radio" name="perro" value="pitbull">
+                                Pitbull
+                            </span>
+                        </label>
+
+                    </div>
+
+                </fieldset>
+                <fieldset>
+
+                    <legend> ¿Qué tipo de perro buscás?</legend>
+
+                    <div class="tres-opciones">
+
+                        <label>
+                          
+                            <input type="radio" name="edad" value="cachorro">
+                            Cachorro
+                        </label>
+
+                        <label>
+                            
+                            <input type="radio" name="edad" value="adulto">
+                            Adulto
+                        </label>
+
+                        <label>
+                          
+                            <input type="radio" name="edad" value="mayor">
+                            Mayor
+                        </label>
+
+                    </div>
+
+                </fieldset>
+                <fieldset>
+
+                    <legend> ¿Qué tamaño preferís?</legend>
+
+                    <div class="tres-opciones">
+
+                        <label>
+                            
+                            Pequeño
+                            <small>(1-10 kg)</small>
+                            <input type="radio" name="tamano" value="pequeno">
+                        </label>
+
+                        <label>
+                           
+                            Mediano
+                            <small>(11-25 kg)</small>
+                            <input type="radio" name="tamano" value="mediano">
+                        </label>
+
+                        <label>
+                           
+                            Grande
+                            <small>(26 kg o más)</small>
+                            <input type="radio" name="tamano" value="grande">
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+            </section>
+            <section class="columna">
+                <fieldset>
+
+                    <legend> Tus preferencias</legend>
+
+                    <div class="campo">
+
+                        <label>¿Qué personalidad te gustaría?</label>
+
+                        <div class="check">
+                            <label>
+                                <input type="checkbox" name="personalidad" value="tranquilo">
+                                Tranquilo/a
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="personalidad" value="jugueton">
+                                Juguetón/a
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="personalidad" value="sociable">
+                                Sociable
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="personalidad" value="independiente">
+                                Independiente
+                            </label>
+
+                            <label>
+                                <input type="checkbox" name="personalidad" value="otro">
+                                Otro:
+                                <input type="text">
+                            </label>
+                        </div>
+
+                    </div>
+                    
+                    <div class="campo">
+
+                        <label>¿Cómo es tu experiencia con perros?</label>
+
+                        <div class="check">
+
+                            <label>
+                                <input type="radio" name="experiencia">
+                                No tengo experiencia
+                            </label>
+
+                            <label>
+                                <input type="radio" name="experiencia">
+                                Tengo poca experiencia
+                            </label>
+
+                            <label>
+                                <input type="radio" name="experiencia">
+                                Tengo experiencia
+                            </label>
+
+                        </div>
+
+                    </div>
+                    <div class="campo">
+
+                        <label>¿Para qué sería el perro?</label>
+
+                        <div class="check">
+
+                            <label>
+                                <input type="checkbox">
+                                Compañía
+                            </label>
+
+                            <label>
+                                <input type="checkbox">
+                                Actividad física
+                            </label>
+
+                            <label>
+                                <input type="checkbox">
+                                Terapia emocional
+                            </label>
+
+                            <label>
+                                <input type="checkbox">
+                                Otro:
+                                <input type="text">
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                </fieldset>
+
+
+                
+                <fieldset>
+
+                    <legend> Contanos un poco más</legend>
+
+                    <label>
+                        ¿Por qué querés adoptar?
+                    </label>
+
+                    <textarea
+                        placeholder="¿Tenés alguna otra información que consideres importante?"
+                    ></textarea>
+
+                </fieldset>
+
+            </section>
+
+        </main>
+
+
+        
+       
+
+    
+
+</body>
+<footer>
+
+    <div>
+        <h2>¡Gracias por darles una oportunidad!</h2>
+
+        <p>
+            Tu solicitud será revisada y
+            nos pondremos en contacto para coordinar una entrevista.
+        </p>
+    </div>
+
+    <div class="botones">
+
+        <button type="submit">
+            Enviar solicitud
+        </button>
+
+        <button type="reset">
+            Eliminar formulario
+        </button>
+
+    </div>
+</footer>
+</form>
+</html>
+
